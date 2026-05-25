@@ -5,8 +5,7 @@ import axios from 'axios';
 // ============================================
 // CONFIGURATION
 // ============================================
-const API_BASE = 'http://localhost:5000';
-
+const API_BASE = 'https://cyberthreat-detection-system.onrender.com';
 const THREAT_TYPES = [
   { value: 'brute_force', label: 'Brute Force', icon: '🔓', description: 'Multiple failed login attempts' },
   { value: 'data_exfiltration', label: 'Data Exfiltration', icon: '📤', description: 'High data transfer detected' },
